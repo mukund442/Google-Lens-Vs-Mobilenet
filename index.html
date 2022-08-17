@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <title>Real Time Image Identification App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+
+
+    <body style="background-color:black;">
+        <center>
+        <h2 style="width:100%; font-size: 25px;" class="btn btn-success">Case Study Between Google lens and Mobilenet</h2>
+        <br>
+        <div style="border-radius:15px; width:200px; background-color:darkorange">
+            <h3 style="color:white; margin-top:10px;"><b>Google Lens</b> <img style="margin-top:10px; border-radius:10px; height:50px; width:50px;" src="google lens.webp"></h3>
+            <h2 style="color:white;"><b>Vs</b></h2>
+            <h3 style=" margin-bottom:15px; background-color:white; color:black; font-size:18;" class="btn btn-primary"><b>Mobilenet</b></h3>
+        </div>
+        <hr>
+        </center>
+        <h1 style="color:white; margin-left:15px; border-radius:10px; font-size:21px;" class="btn btn-success">Who Is The Best</h1><br>
+        <h2 class="btn btn-primary" style=" color:white; margin-left:15px; font-size:19px; border-radius:10px">Test number 1: Accuracy of the guess</h2>
+
+
+
+
+
+
+
+        <br>
+    
+
+
+
+
+
+
+   
+<div  style="margin:10px; background-color:cyan; height:245px; border-radius:15px; width:800px;" class="test_image_and_result col-xs-12">
+    
+    
+
+    <li class="col-sm-4 col-xs-12"> 
+        <b>Test Image - </b>
+        <img style="width:160px; height:180; margin-right:10px; margin-bottom: 10px; margin-top:10px; border-radius:15px" src="headphones.jpg" class="img-responsive"> 
+    </li>
+
+<br>
+
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Google Lens: Boat rockerz 450</b>
+    <b style="font-size:30px;">|</b>
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Mobilenet: Headphones </b>
+    
+
+
+    <div class="mini_result" class="col-xs-12">
+        <center>
+       <h4 style="margin-left:200px; font-size:20;"><b>Result - </b></h4>
+       <hr>
+       <h4 style="margin:10px; font-size:20px; ">Google Lens</h4>
+    </center>   <hr>
+    
+    </div>
+    </div>
+</div>
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+<div  style="margin:10px; background-color:cyan; height:245px; border-radius:15px; width:800px;" class="test_image_and_result col-xs-12">
+    
+    
+
+    <li class="col-sm-4 col-xs-12"> 
+        <b>Test Image - </b>
+        <img style="width:160px; height:180; margin-right:10px; margin-bottom: 10px; margin-top:10px; border-radius:15px" src="headphones.jpg" class="img-responsive"> 
+    </li>
+
+<br>
+
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Google Lens: Boat rockerz 450</b>
+    <b style="font-size:30px;">|</b>
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Mobilenet: Headphones </b>
+    
+
+
+    <div class="mini_result" class="col-xs-12">
+        <center>
+       <h4 style="margin-left:200px; font-size:20;"><b>Result - </b></h4>
+       <hr>
+       <h4 style="margin:10px; font-size:20px; ">Google Lens</h4>
+    </center>   <hr>
+    
+    </div>
+    </div>
+</div>
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+<div  style="margin:10px; background-color:cyan; height:245px; border-radius:15px; width:800px;" class="test_image_and_result col-xs-12">
+    
+    
+
+    <li class="col-sm-4 col-xs-12"> 
+        <b>Test Image - </b>
+        <img style="width:160px; height:180; margin-right:10px; margin-bottom: 10px; margin-top:10px; border-radius:15px" src="headphones.jpg" class="img-responsive"> 
+    </li>
+
+<br>
+
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Google Lens: Boat rockerz 450</b>
+    <b style="font-size:30px;">|</b>
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Mobilenet: Headphones </b>
+    
+
+
+    <div class="mini_result" class="col-xs-12">
+        <center>
+       <h4 style="margin-left:200px; font-size:20;"><b>Result - </b></h4>
+       <hr>
+       <h4 style="margin:10px; font-size:20px; ">Google Lens</h4>
+    </center>   <hr>
+    
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+<div  style="margin:10px; background-color:cyan; height:245px; border-radius:15px; width:800px;" class="test_image_and_result col-xs-12">
+    
+    
+
+    <li class="col-sm-4 col-xs-12"> 
+        <b>Test Image - </b>
+        <img style="width:160px; height:180; margin-right:10px; margin-bottom: 10px; margin-top:10px; border-radius:15px" src="headphones.jpg" class="img-responsive"> 
+    </li>
+
+<br>
+
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Google Lens: Boat rockerz 450</b>
+    <b style="font-size:30px;">|</b>
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Mobilenet: Headphones </b>
+    
+
+
+    <div class="mini_result" class="col-xs-12">
+        <center>
+       <h4 style="margin-left:200px; font-size:20;"><b>Result - </b></h4>
+       <hr>
+       <h4 style="margin:10px; font-size:20px; ">Google Lens</h4>
+    </center>   <hr>
+    
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+<div  style="margin:10px; background-color:cyan; height:245px; border-radius:15px; width:800px;" class="test_image_and_result col-xs-12">
+    
+    
+
+    <li class="col-sm-4 col-xs-12"> 
+        <b>Test Image - </b>
+        <img style="width:160px; height:180; margin-right:10px; margin-bottom: 10px; margin-top:10px; border-radius:15px" src="headphones.jpg" class="img-responsive"> 
+    </li>
+
+<br>
+
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Google Lens: Boat rockerz 450</b>
+    <b style="font-size:30px;">|</b>
+    <b style="border:3px solid black; padding:5px; font-size:17px; color:green; background-color:white; border-radius:20px; width:150px; height:50px; margin-top:20px;">Mobilenet: Headphones </b>
+    
+
+
+    <div class="mini_result" class="col-xs-12">
+        <center>
+       <h4 style="margin-left:200px; font-size:20;"><b>Result - </b></h4>
+       <hr>
+       <h4 style="margin:10px; font-size:20px; ">Google Lens</h4>
+    </center>   <hr>
+    
+    </div>
+    </div>
+</div>
+        
+
+        
+    </body>
+</html>
+
+
+
+
+
